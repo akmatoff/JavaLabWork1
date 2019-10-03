@@ -1,10 +1,20 @@
 public class Pyramid {
     public static void main(String[] args) {
-        for(int row = 1; row <= 4; row++) {
-            for(int i = 1; i <= 7; i++) {
-                System.out.print(" " + i);
-            }
-            System.out.println();
+        int row, i, x = 1;
+            for (row = 1; row <= 4; row++) {
+                if(row == 3) {
+                    System.out.print("  ");
+                } else if(row == 2) {
+                    System.out.print("    ");
+                } else if(row == 1) {
+                    System.out.print("      ");
+                }
+                for (i = 1; i <= x; i++) {
+                    System.out.print(i + " ");
+                }
+                x = x + 2;
+                System.out.println();
         }
+
     }
 }
