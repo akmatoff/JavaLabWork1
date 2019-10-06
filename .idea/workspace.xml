@@ -4,7 +4,8 @@
     <list default="true" id="3b69374c-4ef3-4a30-b8aa-2f8e8698658b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pyramid">
+  <component name="RunManager" selected="Application.Rocket">
     <configuration name="Hypotenuse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hypotenuse" />
       <module name="Lab Work 1" />
@@ -63,6 +64,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Rocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rocket" />
+      <module name="Lab Work 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="weekDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="weekDay" />
       <module name="Lab Work 1" />
@@ -72,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rocket" />
         <item itemvalue="Application.Pyramid" />
         <item itemvalue="Application.Hypotenuse" />
         <item itemvalue="Application.Hypotenuse2" />
@@ -92,6 +101,7 @@
       <workItem from="1569852283586" duration="5718000" />
       <workItem from="1570022698814" duration="2603000" />
       <workItem from="1570112895533" duration="4231000" />
+      <workItem from="1570348592147" duration="4174000" />
     </task>
     <servers />
   </component>
@@ -103,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
