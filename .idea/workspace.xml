@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b69374c-4ef3-4a30-b8aa-2f8e8698658b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Hypotenuse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Hypotenuse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/META-INF/Lab Work 1.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/weekDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/weekDay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,6 +106,8 @@
       <workItem from="1570022698814" duration="2603000" />
       <workItem from="1570112895533" duration="4231000" />
       <workItem from="1570348592147" duration="4174000" />
+      <workItem from="1570432709195" duration="773000" />
+      <workItem from="1570524718935" duration="3256000" />
     </task>
     <servers />
   </component>

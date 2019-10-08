@@ -37,26 +37,23 @@ public class Rocket {
         }
 
         // Middle part
-        for(row = 6; row >= 1; row--) {
-            for(sym = 6; sym >= 0; sym--) {
-                System.out.print("|.");
+        for(row = 1; row <= 3; row++) {
+            for(x = 2; x >= row; x--) {
+                System.out.print(".");
             }
+
+            for(sym = 3; sym >= row; sym--) {
+                System.out.print("/");
+                System.out.print("\\");
+            }
+
             System.out.println();
         }
-
 
         // Plus and equal symbols
         for(row = 0; row < 1; row++) {
             for(sym = 6; sym >= 0; sym--) {
                 System.out.print("+=");
-            }
-            System.out.println();
-        }
-
-        // Middle part
-        for(row = 6; row >= 1; row--) {
-            for(sym = 6; sym >= 0; sym--) {
-                System.out.print("|.");
             }
             System.out.println();
         }
