@@ -3,7 +3,7 @@
  */
 
 public class Rocket {
-    // Top of the rocket
+    // ================ TOP OF THE ROCKET ==================
     static void top(int size) {
 
         int row, sym, space;
@@ -24,46 +24,183 @@ public class Rocket {
         }
     }
 
-    // Body of the rocket
+    // ============== BODY OF THE ROCKET ====================
     static void body(int size) {
-        int row, sym, x, dot, i = 6;
+        int row, sym, x, dot, i = 3;
 
-        // Plus and equal symbols
-        for(row = 0; row < 1; row++) {
-            for(sym = 0; sym >= 0; sym--) {
+        // ======= PLUS & EQUAL SYMBOLS =======
+        for (row = 0; row < 1; row++) {
+            for (sym = 0; sym >= 0; sym--) {
                 System.out.print("+=*");
             }
-            for(sym = 4; sym >= 0; sym--) {
+            for (sym = 4; sym >= 0; sym--) {
                 System.out.print("=*");
             }
             System.out.print("+");
             System.out.println();
         }
 
-        // Middle part
-        for(row = 6; row >= 1; row--) {
-            for(x = 6; x >= 6; x--) {
+        // ============== MIDDLE PART ======================
+        for (row = 3; row >= 1; row--) {
+            for (x = 6; x >= 6; x--) {
                 System.out.print("|"); // Side lines
             }
 
-            for(dot = 5; dot <= row; dot++) {
+            for (dot = 2; dot <= row; dot++) {
                 System.out.print(".");
             }
 
-            for(sym = 6; sym >= row; sym--) {
+            for (sym = 3; sym >= row; sym--) {
                 System.out.print("/\\");
             }
+
+            for (dot = 6; dot >= i; dot--) {
+                System.out.print(".");
+            }
+
+            i = i + 2;
+
+            for (sym = 3; sym >= row; sym--) {
+                System.out.print("/\\");
+            }
+
+            for (dot = 2; dot <= row; dot++) {
+                System.out.print(".");
+            }
+
+            for (x = 6; x >= 6; x--) {
+                System.out.print("|"); // Side lines
+            }
+
+
+            System.out.println();
+        }
+
+        // ============= LOWER PART ==================
+        for (row = 1; row <= 3; row++) {
+            for (x = 6; x >= 6; x--) {
+                System.out.print("|"); // Side lines
+            }
+
+            for (dot = 2; dot <= row; dot++) {
+                System.out.print(".");
+            }
+
+            for (sym = 3; sym >= row; sym--) {
+                System.out.print("\\/");
+            }
+
+            for (dot = 10; dot <= i; dot++) {
+                System.out.print(".");
+            }
+
+            i = i + 2;
+
+            for (sym = 3; sym >= row; sym--) {
+                System.out.print("\\/");
+            }
+
+            for (dot = 2; dot <= row; dot++) {
+                System.out.print(".");
+            }
+
+            for (x = 6; x >= 6; x--) {
+                System.out.print("|"); // Side lines
+            }
+
             System.out.println();
         }
 
 
-
-        // Plus and equal symbols
-        for(row = 0; row < 1; row++) {
-            for(sym = 0; sym >= 0; sym--) {
+        // =========== PLUS & EQUAL SYMBOLS ==============
+        for (row = 0; row < 1; row++) {
+            for (sym = 0; sym >= 0; sym--) {
                 System.out.print("+=*");
             }
-            for(sym = 4; sym >= 0; sym--) {
+            for (sym = 4; sym >= 0; sym--) {
+                System.out.print("=*");
+            }
+            System.out.print("+");
+            System.out.println();
+        }
+
+        // ============== MIDDLE PART 2 ======================
+        for(row = 1; row <= 3; row++) {
+            for(x = 6; x >= 6; x--) {
+                System.out.print("|"); // SIDE LINES
+            }
+
+            for (dot = 2; dot <= row; dot++) {
+                System.out.print(".");
+            }
+
+            for (sym = 3; sym >= row; sym--) {
+                System.out.print("\\/");
+            }
+
+            for (dot = 16; dot <= i; dot++) {
+                System.out.print(".");
+            }
+
+            i = i + 2;
+
+            for (sym = 3; sym >= row; sym--) {
+                System.out.print("\\/");
+            }
+
+            for (dot = 2; dot <= row; dot++) {
+                System.out.print(".");
+            }
+
+            for (x = 6; x >= 6; x--) {
+                System.out.print("|"); // Side lines
+            }
+
+            System.out.println();
+        }
+
+        // ============== LOWER PART 2 =====================
+        i = 3;
+        for (row = 3; row >= 1; row--) {
+            for (x = 6; x >= 6; x--) {
+                System.out.print("|"); // Side lines
+            }
+
+            for (dot = 2; dot <= row; dot++) {
+                System.out.print(".");
+            }
+
+            for (sym = 3; sym >= row; sym--) {
+                System.out.print("/\\");
+            }
+
+            for (dot = 6; dot >= i; dot--) {
+                System.out.print(".");
+            }
+
+            i = i + 2;
+
+            for (sym = 3; sym >= row; sym--) {
+                System.out.print("/\\");
+            }
+
+            for (dot = 2; dot <= row; dot++) {
+                System.out.print(".");
+            }
+
+            for (x = 6; x >= 6; x--) {
+                System.out.print("|"); // Side lines
+            }
+
+            System.out.println();
+        }
+
+        // =========== PLUS & EQUAL SYMBOLS ==============
+        for (row = 0; row < 1; row++) {
+            for (sym = 0; sym >= 0; sym--) {
+                System.out.print("+=*");
+            }
+            for (sym = 4; sym >= 0; sym--) {
                 System.out.print("=*");
             }
             System.out.print("+");
@@ -72,7 +209,7 @@ public class Rocket {
 
     }
 
-    // Bottom of the rocket
+    // ============== BOTTOM OF THE ROCKET =================
     static void bottom(int size) {
         int row, sym,space;
 
@@ -97,6 +234,6 @@ public class Rocket {
         body(3);
         bottom(3);
 
-        // The end of the main method
+        // ============ THE END OF THE MAIN METHOD ==================
     }
 }
