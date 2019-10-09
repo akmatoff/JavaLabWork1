@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b69374c-4ef3-4a30-b8aa-2f8e8698658b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Hypotenuse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Hypotenuse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/META-INF/Lab Work 1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/weekDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/weekDay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
@@ -26,6 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
   <component name="ProjectId" id="1RYmD2em4MIgR9FLp76QjToNwDG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -33,6 +39,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,13 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Hypotenuse" />
+      <item itemvalue="Application.Hypotenuse2" />
+      <item itemvalue="Application.Pyramid" />
+      <item itemvalue="Application.Rocket" />
+      <item itemvalue="Application.weekDay" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Rocket" />
-        <item itemvalue="Application.Pyramid" />
-        <item itemvalue="Application.Hypotenuse" />
-        <item itemvalue="Application.Hypotenuse2" />
-        <item itemvalue="Application.weekDay" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +121,8 @@
       <workItem from="1570348592147" duration="4174000" />
       <workItem from="1570432709195" duration="773000" />
       <workItem from="1570524718935" duration="3256000" />
+      <workItem from="1570591854420" duration="371000" />
+      <workItem from="1570615659127" duration="4893000" />
     </task>
     <servers />
   </component>
@@ -126,5 +141,80 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lab Work 1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

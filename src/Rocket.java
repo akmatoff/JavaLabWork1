@@ -26,43 +26,47 @@ public class Rocket {
 
     // Body of the rocket
     static void body(int size) {
-        int row, sym, x;
+        int row, sym, x, dot, i = 6;
 
         // Plus and equal symbols
         for(row = 0; row < 1; row++) {
-            for(sym = 6; sym >= 0; sym--) {
-                System.out.print("+=");
+            for(sym = 0; sym >= 0; sym--) {
+                System.out.print("+=*");
             }
+            for(sym = 4; sym >= 0; sym--) {
+                System.out.print("=*");
+            }
+            System.out.print("+");
             System.out.println();
         }
 
         // Middle part
-        for(row = 1; row <= 3; row++) {
-            for(x = 2; x >= row; x--) {
+        for(row = 6; row >= 1; row--) {
+            for(x = 6; x >= 6; x--) {
+                System.out.print("|"); // Side lines
+            }
+
+            for(dot = 5; dot <= row; dot++) {
                 System.out.print(".");
             }
 
-            for(sym = 3; sym >= row; sym--) {
-                System.out.print("/");
-                System.out.print("\\");
-            }
-
-            System.out.println();
-        }
-
-        // Plus and equal symbols
-        for(row = 0; row < 1; row++) {
-            for(sym = 6; sym >= 0; sym--) {
-                System.out.print("+=");
+            for(sym = 6; sym >= row; sym--) {
+                System.out.print("/\\");
             }
             System.out.println();
         }
 
+
+
         // Plus and equal symbols
         for(row = 0; row < 1; row++) {
-            for(sym = 6; sym >= 0; sym--) {
-                System.out.print("+=");
+            for(sym = 0; sym >= 0; sym--) {
+                System.out.print("+=*");
             }
+            for(sym = 4; sym >= 0; sym--) {
+                System.out.print("=*");
+            }
+            System.out.print("+");
             System.out.println();
         }
 
