@@ -3,13 +3,14 @@
  */
 
 public class Rocket {
+    public static final int SIZE = 2;
     // ================ TOP OF THE ROCKET ==================
-    static void top(int size) {
+    static void top() {
 
         int row, sym, space;
 
-        for(row = 5; row >=1; row--) {
-            for(space = 1; space <= row; space++) {
+        for(row = 5; row >= -SIZE - SIZE / 2; row--) {
+            for(space = 1; space <= row + SIZE + SIZE; space++) {
                 System.out.print(" "); // Space before every string
             }
 
@@ -25,7 +26,7 @@ public class Rocket {
     }
 
     // ============== BODY OF THE ROCKET ====================
-    static void body(int size) {
+    static void body() {
         int row, sym, x, dot, i = 3;
 
         // ======= PLUS & EQUAL SYMBOLS =======
@@ -33,7 +34,7 @@ public class Rocket {
             for (sym = 0; sym >= 0; sym--) {
                 System.out.print("+=*");
             }
-            for (sym = 4; sym >= 0; sym--) {
+            for (sym = 4; sym >= -SIZE * 2; sym--) {
                 System.out.print("=*");
             }
             System.out.print("+");
@@ -41,30 +42,30 @@ public class Rocket {
         }
 
         // ============== MIDDLE PART ======================
-        for (row = 3; row >= 1; row--) {
+        for (row = 3; row >= 1 - SIZE * 2; row--) {
             for (x = 6; x >= 6; x--) {
                 System.out.print("|"); // Side lines
             }
 
-            for (dot = 2; dot <= row; dot++) {
+            for (dot = 2; dot <= row + SIZE; dot++) {
                 System.out.print(".");
             }
 
-            for (sym = 3; sym >= row; sym--) {
+            for (sym = 3; sym >= row - SIZE / 2 + 1; sym--) {
                 System.out.print("/\\");
             }
 
-            for (dot = 6; dot >= i; dot--) {
+            for (dot = 6; dot >= i - SIZE * 2; dot--) {
                 System.out.print(".");
             }
 
             i = i + 2;
 
-            for (sym = 3; sym >= row; sym--) {
+            for (sym = 3; sym >= row - SIZE / 2 + 1; sym--) {
                 System.out.print("/\\");
             }
 
-            for (dot = 2; dot <= row; dot++) {
+            for (dot = 2; dot <= row + SIZE; dot++) {
                 System.out.print(".");
             }
 
@@ -77,26 +78,26 @@ public class Rocket {
         }
 
         // ============= LOWER PART ==================
-        for (row = 1; row <= 3; row++) {
+        for (row = 1; row <= SIZE + 1; row++) {
             for (x = 6; x >= 6; x--) {
                 System.out.print("|"); // Side lines
             }
 
-            for (dot = 2; dot <= row; dot++) {
+            for (dot = 2; dot <= row + SIZE * 2 - 1; dot++) {
                 System.out.print(".");
             }
 
-            for (sym = 3; sym >= row; sym--) {
+            for (sym = 3; sym >= row + SIZE / 2; sym--) {
                 System.out.print("\\/");
             }
 
-            for (dot = 10; dot <= i; dot++) {
+            for (dot = 10; dot <= i - SIZE * 2 + 2; dot++) {
                 System.out.print(".");
             }
 
             i = i + 2;
 
-            for (sym = 3; sym >= row; sym--) {
+            for (sym = 3; sym >= row + SIZE / 2; sym--) {
                 System.out.print("\\/");
             }
 
@@ -117,7 +118,7 @@ public class Rocket {
             for (sym = 0; sym >= 0; sym--) {
                 System.out.print("+=*");
             }
-            for (sym = 4; sym >= 0; sym--) {
+            for (sym = 4; sym >= -SIZE * 2; sym--) {
                 System.out.print("=*");
             }
             System.out.print("+");
@@ -200,7 +201,7 @@ public class Rocket {
             for (sym = 0; sym >= 0; sym--) {
                 System.out.print("+=*");
             }
-            for (sym = 4; sym >= 0; sym--) {
+            for (sym = 4; sym >= -SIZE * 2; sym--) {
                 System.out.print("=*");
             }
             System.out.print("+");
@@ -210,7 +211,7 @@ public class Rocket {
     }
 
     // ============== BOTTOM OF THE ROCKET =================
-    static void bottom(int size) {
+    static void bottom() {
         int row, sym,space;
 
         for(row = 5; row >= 1; row--) {
@@ -230,9 +231,9 @@ public class Rocket {
 
     public static void main(String[] args) {
 
-        top(3);
-        body(3);
-        bottom(3);
+        top();
+        body();
+        bottom();
 
         // ============ THE END OF THE MAIN METHOD ==================
     }
