@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b69374c-4ef3-4a30-b8aa-2f8e8698658b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Spaceship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Rocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1RYmD2em4MIgR9FLp76QjToNwDG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,14 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rocket">
-    <configuration name="Hypotenuse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hypotenuse" />
-      <module name="Lab Work 1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Pyramid">
     <configuration name="Hypotenuse2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hypotenuse2" />
       <module name="Lab Work 1" />
@@ -81,6 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spaceship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spaceship" />
+      <module name="Lab Work 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="weekDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="weekDay" />
       <module name="Lab Work 1" />
@@ -89,14 +84,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hypotenuse" />
       <item itemvalue="Application.Hypotenuse2" />
       <item itemvalue="Application.Pyramid" />
       <item itemvalue="Application.Rocket" />
       <item itemvalue="Application.weekDay" />
+      <item itemvalue="Application.Spaceship" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pyramid" />
+        <item itemvalue="Application.Spaceship" />
         <item itemvalue="Application.Rocket" />
       </list>
     </recent_temporary>
@@ -121,6 +118,7 @@
       <workItem from="1570615659127" duration="4893000" />
       <workItem from="1570631030172" duration="3964000" />
       <workItem from="1570725194400" duration="7173000" />
+      <workItem from="1571061339915" duration="6703000" />
     </task>
     <servers />
   </component>
