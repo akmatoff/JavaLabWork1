@@ -1,4 +1,4 @@
-public class Spaceship {
+class Spaceship {
     public static int SIZE = 2;
 
     static void topAndBottom() {
@@ -111,7 +111,7 @@ public class Spaceship {
         }
     }
 
-    public static void main(String[] args) {
+    static void drawSpaceship(String[] args) {
         topAndBottom();
         bodyDivider();
         bodyTopHalf();

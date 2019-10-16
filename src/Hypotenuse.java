@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Hypotenuse {
-    public static void main(String[] args) {
+class Hypotenuse {
+    static void hypotenuse(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите значение для катета a: ");
         double kateta = scanner.nextInt();
