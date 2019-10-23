@@ -16,7 +16,7 @@ class Hypotenuse {
 
         // Вычисляю значение угла треугольника
         double divide = kateta / katetb;
-        double tan = Math.tan(divide);
+        double tan = Math.atan(divide);
         double todegree = tan * (180 / Math.PI);
 
         // Вычисляю высоту треугольника

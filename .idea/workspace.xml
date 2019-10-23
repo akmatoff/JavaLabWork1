@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b69374c-4ef3-4a30-b8aa-2f8e8698658b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RunProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Hypotenuse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Hypotenuse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/META-INF/Lab Work 1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Pyramid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/Spaceship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/Spaceship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab Work 1/weekDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab Work 1/weekDay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hypotenuse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hypotenuse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spaceship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekDay.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +120,7 @@
       <workItem from="1571061339915" duration="6703000" />
       <workItem from="1571129829478" duration="2381000" />
       <workItem from="1571220707440" duration="2749000" />
+      <workItem from="1571825812955" duration="133000" />
     </task>
     <servers />
   </component>
